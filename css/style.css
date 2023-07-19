@@ -174,6 +174,7 @@ nav .close-icon {
 .cards {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .depoimentos .card-item {
@@ -331,6 +332,95 @@ nav .close-icon {
 }
 
 /* End Página Serviços */
+/* Página dados */
+.dados {
+  background: #d3e6fd;
+}
+.dados .container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.dados .dados-item {
+  text-align: center;
+  margin: 15px;
+  color: #000000be;
+}
+.dados .dados-item img {
+  background-color: #4f9cf9;
+  border-radius: 14px;
+  padding: 10px;
+  margin-bottom: 15px;
+  width: 80px;
+}
+.dados .dados-item p {
+  font-size: 18px;
+}
+.dados .dados-item p strong {
+  font-size: 28px;
+}
+/* End Página dados */
+/* Página contatos */
+.contato-info {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.contato-info .left-side {
+  width: 50%;
+  padding: 30px;
+  background-color: #4f9cf9;
+  border-radius: 14px;
+  margin-right: 50px;
+  height: fit-content;
+}
+.contato-info .left-side div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.contato-info .left-side div i {
+  font-size: 24px;
+  margin-right: 20px;
+  color: white;
+}
+.contato-info .left-side p {
+  font-size: 17px;
+  color: white;
+}
+.contato-info .rigth-side {
+  width: 50%;
+}
+.contato-info .rigth-side input {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  height: 47px;
+  padding: 15px;
+  border-radius: 9px;
+  transition: 0.3s;
+  border: 1px solid #f1f1f1;
+  color: #212121;
+  font-weight: lighter;
+}
+.contato-info .rigth-side input:focus,
+.contato-info .rigth-side textarea:focus{
+  border-color: #4f9cf9;
+}
+.contato-info .rigth-side textarea {
+  border: 1px solid #f1f1f1;
+  color: #212121;
+  border-radius: 9px;
+  margin-bottom: 10px;
+  padding: 15px;
+  width: 100%;
+  transition: 0.3s;
+  resize: none;
+}
+.contato-info .rigth-side button{
+  border: none;
+}
+/* End Página contatos */
 /* Menu Mobile */
 @media (max-width: 830px) {
   .ul {
@@ -363,4 +453,36 @@ nav .close-icon {
     top: 46px;
     right: 28px;
   }
+} 
+/* Página Home Responsivo */
+.faça-mais .faça-mais-text {
+  margin-top: 10px;
+  padding: 0 20px;
+  order: 1;
 }
+.faça-mais .container {
+  flex-direction: column;
+}
+.faça-mais .faça-mais-text h3 {
+  font-size: 48px;
+}
+.faça-mais .faça-mais-text,
+.faça-mais .faça-mais-img{
+  width: 100%;
+}
+/* Baner Responsivo */
+.baner .baner-text {
+  padding: 0;
+  margin: 80px;
+}
+.baner .baner-text h1 {
+  font-size: 80px;
+}
+.baner .baner-text p {
+   font-size: 15px;
+}
+.depoimentos .card-item {
+  width: 100%;
+}
+/* Clientes Responsivo */
+

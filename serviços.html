@@ -1,144 +1,184 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--font-awesome-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <!--Link css-->
-    <link rel="stylesheet" href="./css/style.css">
-    <title>Serviços-Portfólio</title>
-  </head>
-  <body>
-    <!--header-->
-    <header style="background-image: url(./img/background-servicos.jpg);">
-      <!--container-->
-      <div class="container">
-        <nav>
-          <a href="index.html">
-          <img src="./img/logo.png" alt="logo">
-          </a>
-          <ul class="ul">
-            <a href="index.html">Home</a>
-            <a href="sobre.html">Sobre</a>
-            <a href="serviços.html">Serviços</a>
-            <a class="btn" href="contatos.html">Contatos</a>
-            <div class="close-icon" onclick="closeMenu()">
-              <i class="fa fa-times-circle"></i> 
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <!--font-awesome-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <!--Link css-->
+      <link rel="stylesheet" href="./css/style.css">
+      <title>Serviços-Portfólio</title>
+   </head>
+   <body>
+      <!--header-->
+      <header style="background-image: url(./img/background-servicos.jpg);">
+         <!--container-->
+         <div class="container">
+            <nav>
+               <a href="index.html">
+               <img src="./img/logo.png" alt="logo">
+               </a>
+               <ul class="ul">
+                  <a href="index.html">Home</a>
+                  <a href="sobre.html">Sobre</a>
+                  <a href="serviços.html">Serviços</a>
+                  <a class="btn" href="contatos.html">Contatos</a>
+                  <div class="close-icon" onclick="closeMenu()">
+                     <i class="fa fa-times-circle"></i> 
+                  </div>
+               </ul>
+               <!--menu responsivo-->
+               <div class="menu-icon" onclick="openMenu()"> 
+                  <i class="fa fa-bars"></i>
+               </div>
+               <!--End menu responsivo-->
+            </nav>
+            <section class="baner">
+               <div class="baner-text">
+                  <h1>Serviços</h1>
+               </div>
+            </section>
+         </div>
+         <!--End Container-->
+      </header>
+      <!--End header-->
+      <!--section-Serviços-->
+      <section class="serviços">
+         <div class="container">
+            <h3>Nossos Serviços</h3>
+            <p>Conheça os nossos melhores serviços para você!</p>
+            <!--rows-cards-->
+            <div class="rows-cards">
+               <!--rows-cards 1-->
+               <div class="row-card-item">
+                  <img src="./img/cloud.png" alt="">
+                  <p class="nome-serço"><strong>Serviço em Nuvem</strong></p>
+                  <p class="descrição-serviço">
+                     Lorem Ipsum is simply dummy text of the printing and typesetting
+                     industry. Lorem Ipsum has been the industry's standard dummy text ever
+                     Letraset sheets containing Lorem Ipsum passages, and more recently
+                     lishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                  </p>
+               </div>
+               <!--End rows-cards 1-->
+               <!--rows-cards 2-->
+               <div class="row-card-item">
+                  <img src="./img/digital-marketing.png" alt="">
+                  <p class="nome-serço"><strong>Marketing-Digital</strong></p>
+                  <p class="descrição-serviço">
+                     Lorem Ipsum is simply dummy text of the printing and typesetting
+                     industry. Lorem Ipsum has been the industry's standard dummy text ever
+                     Letraset sheets containing Lorem Ipsum passages, and more recently
+                     lishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                  </p>
+               </div>
+               <!--End rows-cards 2-->
+               <!--rows-cards 3-->
+               <div class="row-card-item">
+                  <img src="./img/seo.png" alt="">
+                  <p class="nome-serço"><strong>Seo</strong></p>
+                  <p class="descrição-serviço">
+                     Lorem Ipsum is simply dummy text of the printing and typesetting
+                     industry. Lorem Ipsum has been the industry's standard dummy text ever
+                     Letraset sheets containing Lorem Ipsum passages, and more recently
+                     lishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                  </p>
+               </div>
+               <!--End rows-cards 3-->
+               <!--rows-cards 4-->
+               <div class="row-card-item">
+                  <img src="./img/virtual_store.png" alt="">
+                  <p class="nome-serço"><strong>Criação de lojas virtuais</strong></p>
+                  <p class="descrição-serviço">
+                     Lorem Ipsum is simply dummy text of the printing and typesetting
+                     industry. Lorem Ipsum has been the industry's standard dummy text ever
+                     Letraset sheets containing Lorem Ipsum passages, and more recently
+                     lishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                  </p>
+               </div>
+               <!--End rows-cards 4-->
+               <!--rows-cards 5-->
+               <div class="row-card-item">
+                  <img src="./img/layer.png" alt="">
+                  <p class="nome-serço"><strong>Identidade visual & design</strong></p>
+                  <p class="descrição-serviço">
+                     Lorem Ipsum is simply dummy text of the printing and typesetting
+                     industry. Lorem Ipsum has been the industry's standard dummy text ever
+                     Letraset sheets containing Lorem Ipsum passages, and more recently
+                     lishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                  </p>
+               </div>
+               <!--End rows-cards 5-->
+               <!--rows-cards 6-->
+               <div class="row-card-item">
+                  <img src="./img/manager.png" alt="">
+                  <p class="nome-serço"><strong>Criação de Cote</strong></p>
+                  <p class="descrição-serviço">
+                     Lorem Ipsum is simply dummy text of the printing and typesetting
+                     industry. Lorem Ipsum has been the industry's standard dummy text ever
+                     Letraset sheets containing Lorem Ipsum passages, and more recently
+                     lishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                  </p>
+               </div>
+               <!--End rows-cards 6-->
             </div>
-          </ul>
-          <!--menu responsivo-->
-          <div class="menu-icon" onclick="openMenu()"> 
-            <i class="fa fa-bars"></i>
-          </div>
-          <!--End menu responsivo-->
-        </nav>
-        <section class="baner">
-          <div class="baner-text">
-            <h1>Serviços</h1>
-          </div>
-        </section>
-      </div>
-      <!--End Container-->
-    </header>
-    <!--End header-->
-    <!--section-Sobre-->
-   <section class="serviços">
-    <div class="container">
-      <h3>Nossos Serviços</h3>
-      <p>Conheça os nossos melhores serviços para você!</p>
-      <!--rows-cards-->
-      <div class="rows-cards">
-        <!--rows-cards 1-->
-        <div class="row-card-item">
-            <img src="./img/cloud.png" alt="">
-            <p class="nome-serço"><strong>Serviço em Nuvem</strong></p>
-            <p class="descrição-serviço">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-               industry. Lorem Ipsum has been the industry's standard dummy text ever
-               Letraset sheets containing Lorem Ipsum passages, and more recently
-               lishing software like Aldus PageMaker including versions of Lorem Ipsum.
-            </p>
-        </div>
-        <!--End rows-cards 1-->
-        <!--rows-cards 2-->
-        <div class="row-card-item">
-          <img src="./img/digital-marketing.png" alt="">
-          <p class="nome-serço"><strong>Marketing-Digital</strong></p>
-          <p class="descrição-serviço">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-             industry. Lorem Ipsum has been the industry's standard dummy text ever
-             Letraset sheets containing Lorem Ipsum passages, and more recently
-             lishing software like Aldus PageMaker including versions of Lorem Ipsum.
-          </p>
-      </div>
-      <!--End rows-cards 2-->
-      <!--rows-cards 3-->
-      <div class="row-card-item">
-        <img src="./img/seo.png" alt="">
-        <p class="nome-serço"><strong>Seo</strong></p>
-        <p class="descrição-serviço">
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-           industry. Lorem Ipsum has been the industry's standard dummy text ever
-           Letraset sheets containing Lorem Ipsum passages, and more recently
-           lishing software like Aldus PageMaker including versions of Lorem Ipsum.
-        </p>
-    </div>
-    <!--End rows-cards 3-->
-    <!--rows-cards 4-->
-    <div class="row-card-item">
-      <img src="./img/virtual_store.png" alt="">
-      <p class="nome-serço"><strong>Criação de lojas virtuais</strong></p>
-      <p class="descrição-serviço">
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-         industry. Lorem Ipsum has been the industry's standard dummy text ever
-         Letraset sheets containing Lorem Ipsum passages, and more recently
-         lishing software like Aldus PageMaker including versions of Lorem Ipsum.
-      </p>
-  </div>
-  <!--End rows-cards 4-->
-  <!--rows-cards 5-->
-  <div class="row-card-item">
-    <img src="./img/layer.png" alt="">
-    <p class="nome-serço"><strong>Identidade visual & design</strong></p>
-    <p class="descrição-serviço">
-      Lorem Ipsum is simply dummy text of the printing and typesetting
-       industry. Lorem Ipsum has been the industry's standard dummy text ever
-       Letraset sheets containing Lorem Ipsum passages, and more recently
-       lishing software like Aldus PageMaker including versions of Lorem Ipsum.
-    </p>
-</div>
-<!--End rows-cards 5-->
-<!--rows-cards 6-->
-<div class="row-card-item">
-  <img src="./img/manager.png" alt="">
-  <p class="nome-serço"><strong>Criação de Cote</strong></p>
-  <p class="descrição-serviço">
-    Lorem Ipsum is simply dummy text of the printing and typesetting
-     industry. Lorem Ipsum has been the industry's standard dummy text ever
-     Letraset sheets containing Lorem Ipsum passages, and more recently
-     lishing software like Aldus PageMaker including versions of Lorem Ipsum.
-  </p>
-</div>
-<!--End rows-cards 6-->
-      </div>
-      <!--End rows-cards-->
-    </div>
-   </section>
-     <!--End-section-Sobre-->
-    <!--footer-->
-    <footer class="footer">
-      <div class="conteiner">
-        <div class="links">
-          <i class="fa fa-facebook-official"></i>
-          <i class="fa fa-instagram"></i>
-          <i class="fa fa-github"></i>
-          <i class="fa fa-linkedin-square"></i>
-        </div>
-        <p>Desenvolvido por André Moura Theodoro</p>
-      </div>
-    </footer>
-    <!--End footer-->
-    <script src="./JavaScript/main.js"></script>
-  </body>
+            <!--End rows-cards-->
+         </div>
+      </section>
+      <!--End-section-serviços-->
+      <section class="dados">
+         <div class="container">
+            <!--dados item-->
+            <div class="dados-item">
+               <img src="./img/cloud.png" alt="">
+               <p>
+                  <strong>+360</strong> <br>
+                  Projetos Concluídos.
+               </p>
+            </div>
+            <!--End dados item-->
+            <!--dados item-->
+            <div class="dados-item">
+               <img src="./img/manager.png" alt="">
+               <p>
+                  <strong>+890</strong> <br>
+                  Clientes satisfeitos.
+               </p>
+            </div>
+            <!--End dados item-->
+            <!--dados item-->
+            <div class="dados-item">
+               <img src="./img/trophy.png" alt="">
+               <p>
+                  <strong>+4303</strong> <br>
+                  Jornada de Trabalho.
+               </p>
+            </div>
+            <!--End dados item-->
+            <!--dados item-->
+            <div class="dados-item">
+               <img src="./img/layer.png" alt="">
+               <p>
+                  <strong>+254</strong> <br>
+                  Publicidade Paga.
+               </p>
+            </div>
+            <!--End dados item-->
+         </div>
+      </section>
+      <!--footer-->
+      <footer class="footer">
+         <div class="conteiner">
+            <div class="links">
+               <i class="fa fa-facebook-official"></i>
+               <i class="fa fa-instagram"></i>
+               <i class="fa fa-github"></i>
+               <i class="fa fa-linkedin-square"></i>
+            </div>
+            <p>Desenvolvido por André Moura Theodoro</p>
+         </div>
+      </footer>
+      <!--End footer-->
+      <script src="./JavaScript/main.js"></script>
+   </body>
 </html>
