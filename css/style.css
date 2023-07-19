@@ -175,6 +175,8 @@ nav .close-icon {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  
+
 }
 
 .depoimentos .card-item {
@@ -484,5 +486,36 @@ nav .close-icon {
 .depoimentos .card-item {
   width: 100%;
 }
-/* Clientes Responsivo */
+/* Sobre Responsivo */
+.sobre .container{
+  flex-direction: column-reverse;
+}
+.sobre .sobre-img,
+.sobre .sobre-text{
+  width: 100%;
+}
+.sobre .sobre-text{
+  margin: 40px;
+}
+/* Pagina contato Responsivo */
+.contato .contato-info {
+  flex-direction: column-reverse;
+}
+.contato-info .rigth-side,
+.contato-info .left-side{
+  width: 100%;
+}
+.contato-info .rigth-side{
+  margin-bottom: 30px;
+}
+@media (max-width:500px) {
+  .baner .baner-text h1{
+    font-size: 50px;
+  }
+  .faça-mais .faça-mais-text{
+    font-size: 48px;
+  }
+}
+
+
 
